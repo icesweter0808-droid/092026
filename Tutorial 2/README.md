@@ -2,7 +2,6 @@
 <html>
 <head>
 <title>My website</title>
-<link rel=icon href=bird2.jpg type=image/jpg>
 </head>
 <body>
 
