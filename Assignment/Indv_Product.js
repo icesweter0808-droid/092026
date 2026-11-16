@@ -13,7 +13,7 @@ id: 2,
 name: "Artisanal Matcha Tiramisu",
 category: "desserts",
 price: 28.00,
-image: "tiramisu.jpg",
+image: "Tiramisu.jpg",
 description: "Ceremonial Uji matcha layered with mascarpone cream and ladyfingers.",
 onDeal: false
 },
