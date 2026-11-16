@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ben-to Box | About &amp; Contact</title>
+<link rel="stylesheet" href="Individual_Project.css">
+</head>
+<body>
+<header>
+<a href="Individual_Project.html" class="logo">Ben-to Box</a>
+<nav>
+<ul>
+<li><a href="Individual_Project.html">Home</a></li>
+<li><a href="Individual_Shop.html">Menu</a></li>
+<li><a href="Individual_Deal.html">Special Deals</a></li>
+<li><a href="Individual_About.html" class="active">About &amp; Contact</a></li>
+<li><a href="Individual_Cart.html">Cart (<span class="cart-badge">0</span>)</a></li>
+</ul>
+</nav>
+</header>
+
+<main class="container">
+<h2 class="section-title">Our Culinary Story</h2>
+<p class="about-text">Founded in 2026, Ben-to Box partners with local farms and master bakers to bring pre-portioned gourmet meal kits and fresh pastries straight to your doorstep.</p>
+
+<h3 class="form-heading">Send Us an Inquiry</h3>
+<form onsubmit="submitInquiry(event)">
+<div class="form-group">
+<label for="name">Full Name</label>
+<input type="text" id="name" required>
+</div>
+<div class="form-group">
+<label for="email">Email Address</label>
+<input type="email" id="email" required>
+</div>
+<div class="form-group">
+<label for="message">Message / Dietary Requests</label>
+<textarea id="message" rows="5" required></textarea>
+</div>
+<button type="submit" class="btn">Send Message</button>
+</form>
+</main>
+
+<script src="Indv_Product.js"></script>
+<script src="Indv_Main.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ben-to Box | Menu</title>
+<link rel="stylesheet" href="Individual_Project.css">
+</head>
+<body>
+<header>
+<a href="Individual_Project.html" class="logo">Ben-to Box</a>
+<nav>
+<ul>
+<li><a href="Individual_Project.html">Home</a></li>
+<li><a href="Individual_Shop.html" class="active">Menu</a></li>
+<li><a href="Individual_Deal.html">Special Deals</a></li>
+<li><a href="Individual_About.html">About &amp; Contact</a></li>
+<li><a href="Individual_Cart.html">Cart (<span class="cart-badge">0</span>)</a></li>
+</ul>
+</nav>
+</header>
+
+<main class="container">
+<h2 class="section-title">Our Full Gourmet Menu</h2>
+<div class="filter-bar">
+<button type="button" class="filter-btn active" onclick="filterMenu('all', this)">All</button>
+<button type="button" class="filter-btn" onclick="filterMenu('meals', this)">Meal Kits</button>
+<button type="button" class="filter-btn" onclick="filterMenu('bakery', this)">Bakery</button>
+<button type="button" class="filter-btn" onclick="filterMenu('desserts', this)">Desserts</button>
+<button type="button" class="filter-btn" onclick="filterMenu('drinks', this)">Drinks</button>
+</div>
+<div id="shop-grid" class="product-grid"></div>
+</main>
+
+<script src="Indv_Product.js"></script>
+<script src="Indv_Main.js"></script>
+</body>
+</html>
